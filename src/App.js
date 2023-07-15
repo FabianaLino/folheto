@@ -3,7 +3,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <div className="container">
+    <main className="container">
       <div className="folheto">
         <img className="img-bolo" src={ Bolo } alt="Foto Bolo"/>
         <div className="info-produto">
@@ -20,12 +20,12 @@ function App() {
             <li>Abacaxi com creme 4 leites</li>
           </div>  
           <span className="valor">A partir de R$150,00</span>
-          <div className="botao-encomendar">
-            <button className="button-btn">Encomendar</button>
+          <div className="botao-orçamento">
+            <button className="button-btn">Orçamento</button>
           </div>                                       
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
